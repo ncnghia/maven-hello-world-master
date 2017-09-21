@@ -7,8 +7,10 @@ import org.junit.Test;
 
 public class MessageTest {
   
-  private Message message = new Message();
+  private App message = new App();
   
   @Test
-  
+  public void messageSayHello() {
+    assertThat(message.sayHello(), contrainsString("hi,");
+               }
 }
