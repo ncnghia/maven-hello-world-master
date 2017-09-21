@@ -26,4 +26,8 @@ public class App
          */
         System.out.println("... but thankfully, Checker has our back: http://checkerframework.org");
     }
+    
+    public String sayHello() {
+        return "hi, How are you?";
+    }
 }
